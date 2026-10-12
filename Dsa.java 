@@ -24,7 +24,7 @@ public class Dsa {
     while(curr.next != null) {
         curr = curr.next;
     }
-    curr.next = newNode;
+    curr.next = new node;
    }
    public Node findMiddle(Node head) {
     Node slow = head;
